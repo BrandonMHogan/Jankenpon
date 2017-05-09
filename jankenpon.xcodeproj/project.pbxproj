@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1E103946B2E6431DE818927C /* Pods_jankenpon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E402A44D7C711E6234AB6554 /* Pods_jankenpon.framework */; };
 		760AEEBEED2873DF679A5778 /* Pods_jankenponTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7EC1D607139EFCA7B3B482 /* Pods_jankenponTests.framework */; };
+		C010A1821EC2118C00F37AF7 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010A1811EC2118C00F37AF7 /* Match.swift */; };
+		C010A1871EC211DD00F37AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010A1861EC211DD00F37AF7 /* ViewController.swift */; };
 		C0512DC81EC1066800508A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512DC71EC1066800508A5B /* AppDelegate.swift */; };
-		C0512DCA1EC1066800508A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512DC91EC1066800508A5B /* ViewController.swift */; };
 		C0512DCD1EC1066800508A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0512DCB1EC1066800508A5B /* Main.storyboard */; };
 		C0512DCF1EC1066800508A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0512DCE1EC1066800508A5B /* Assets.xcassets */; };
 		C0512DD21EC1066800508A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0512DD01EC1066800508A5B /* LaunchScreen.storyboard */; };
 		C0512DDD1EC1066800508A5B /* jankenponTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512DDC1EC1066800508A5B /* jankenponTests.swift */; };
 		C0512DE81EC1066800508A5B /* jankenponUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512DE71EC1066800508A5B /* jankenponUITests.swift */; };
-		C0512DF71EC1076900508A5B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512DF61EC1076900508A5B /* Task.swift */; };
 		CE58767A27EEB7A99E8F3341 /* Pods_jankenponUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB921F0768E43BD8DD113223 /* Pods_jankenponUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +46,10 @@
 		74E51C0CBF8BAD17A5400487 /* Pods-jankenponTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jankenponTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jankenponTests/Pods-jankenponTests.release.xcconfig"; sourceTree = "<group>"; };
 		8159102CC062E8460320A739 /* Pods-jankenponTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jankenponTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jankenponTests/Pods-jankenponTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB921F0768E43BD8DD113223 /* Pods_jankenponUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jankenponUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C010A1811EC2118C00F37AF7 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		C010A1861EC211DD00F37AF7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0512DC41EC1066800508A5B /* jankenpon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jankenpon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0512DC71EC1066800508A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0512DC91EC1066800508A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0512DCC1EC1066800508A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0512DCE1EC1066800508A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0512DD11EC1066800508A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		C0512DE31EC1066800508A5B /* jankenponUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jankenponUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0512DE71EC1066800508A5B /* jankenponUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jankenponUITests.swift; sourceTree = "<group>"; };
 		C0512DE91EC1066800508A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0512DF61EC1076900508A5B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E402A44D7C711E6234AB6554 /* Pods_jankenpon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jankenpon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +114,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C010A17D1EC2102900F37AF7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C0512DCB1EC1066800508A5B /* Main.storyboard */,
+				C0512DD01EC1066800508A5B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C010A1801EC2118C00F37AF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C010A1811EC2118C00F37AF7 /* Match.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C010A1831EC211DD00F37AF7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C010A1851EC211DD00F37AF7 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C010A1851EC211DD00F37AF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C010A1861EC211DD00F37AF7 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C0512DBB1EC1066800508A5B = {
 			isa = PBXGroup;
 			children = (
@@ -139,12 +172,11 @@
 		C0512DC61EC1066800508A5B /* jankenpon */ = {
 			isa = PBXGroup;
 			children = (
-				C0512DF51EC1075600508A5B /* models */,
+				C010A1831EC211DD00F37AF7 /* UI */,
+				C010A17D1EC2102900F37AF7 /* Storyboards */,
+				C010A1801EC2118C00F37AF7 /* Models */,
 				C0512DC71EC1066800508A5B /* AppDelegate.swift */,
-				C0512DC91EC1066800508A5B /* ViewController.swift */,
-				C0512DCB1EC1066800508A5B /* Main.storyboard */,
 				C0512DCE1EC1066800508A5B /* Assets.xcassets */,
-				C0512DD01EC1066800508A5B /* LaunchScreen.storyboard */,
 				C0512DD31EC1066800508A5B /* Info.plist */,
 			);
 			path = jankenpon;
@@ -166,14 +198,6 @@
 				C0512DE91EC1066800508A5B /* Info.plist */,
 			);
 			path = jankenponUITests;
-			sourceTree = "<group>";
-		};
-		C0512DF51EC1075600508A5B /* models */ = {
-			isa = PBXGroup;
-			children = (
-				C0512DF61EC1076900508A5B /* Task.swift */,
-			);
-			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,8 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0512DCA1EC1066800508A5B /* ViewController.swift in Sources */,
-				C0512DF71EC1076900508A5B /* Task.swift in Sources */,
+				C010A1871EC211DD00F37AF7 /* ViewController.swift in Sources */,
+				C010A1821EC2118C00F37AF7 /* Match.swift in Sources */,
 				C0512DC81EC1066800508A5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

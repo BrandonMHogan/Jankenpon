@@ -9,7 +9,10 @@
 import Foundation
 import RealmSwift
 
-final class Task: Object {
+final class Match: Object {
+    
+
+    
     dynamic var text = ""
     dynamic var completed = false
 }
